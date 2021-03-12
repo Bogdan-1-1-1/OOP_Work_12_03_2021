@@ -7,5 +7,8 @@ public class Main {
 
         System.out.println(murdersAlphabetically.toString());
         System.out.println(tomSawyerAdventures.toString());
+
+        System.out.println();
+        System.out.println(murdersAlphabetically.getBook().getTitle());
     }
 }

@@ -2,8 +2,11 @@ package firstTask;
 
 public class Aspirant extends Student{
 
+    String scienceWork;
+
     public Aspirant() {
         super();
+        this.scienceWork = "Blockchain";
     }
 
     @Override
